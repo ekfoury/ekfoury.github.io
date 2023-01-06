@@ -17,6 +17,7 @@
   abstract={Ever since the inception of the networking industry, routing and switching devices have been limited to tightly-coupled hardware and software components. Vendors provide closed source proprietary stacks, restraining network operators from utilizing customized features, and hence hindering innovation. This aggregated model is costly, time consuming, and unscalable as changes in the devices require vendor's intervention. As a result, the industry started manufacturing white-box switches and developing Network Operating Systems (NOSs) that support multiple vendors and Application Specific Integrated Circuits (ASICs). This model is referred to as ”disaggregated” as the software and hardware are decoupled; essentially, vendors' switching silicons (e.g., Broadcom) are compatible with different NOS (e.g., SONiC). In this paper, we discuss the lessons learned while designing and implementing a testbed that consists of disaggregated network devices. We iterate over several open source Internet Protocol (IP) routing suites and NOSs that are vendor-agnostic. Additionally, we highlight a novel type of forwarding data planes that are programmable and explore their features. The testbed consists of two white-box switches provided by Edgecore that use programmable switching silicon (Tofino) manufactured by Barefoot Networks, an Intel Company. We installed SONiC NOS on top of the switches and tested static and BGP routing protocols. We report the configuration process and the prerequisites needed to deploy a working disaggregated environment. Finally, we discuss how open source NOSs and programmable switches can be extended to support campus networks, rather than being data center-oriented only.}
 }
 
+
 @inproceedings{kfoury2019enabling,
   title={Enabling TCP pacing using programmable data plane switches},
   author={Kfoury, Elie F and Crichigno, Jorge and Bou-Harb, Elias and Khoury, David and Srivastava, Gautam},
@@ -36,7 +37,11 @@
   booktitle={2019 42nd International Conference on Telecommunications and Signal Processing (TSP)},
   pages={318--322},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/8768893},
+  pdf={MethodforSecuringandTerminatingaCSCalloveraVoIPSystemwithMulti-DeviceSupport.pdf},
+  preview={MethodforSecuringandTerminatingaCSCalloveraVoIPSystemwithMulti.png},
+  abstract={The deployment of Over-The-Top (OTT) Voice over IP (VoIP) applications has been accelerated after the adoption of high-speed communications technologies (e.g.: LTE) by mobile operators. Additionally, the high incurring costs imposed on subscribers who are roaming outside their Home Public Land Mobile Network (HPLMN) has also contributed to the widespread coverage of OTT VoIP. As a result, mobile operators are witnessing a dramatic drop on their Average Revenue per User (ARPU). Current OTT VoIP apps fail to interwork with circuit switched phone calls without compromising the security requirements imposed by regulators on MNOs. In this paper we propose a method that secures a competitive edge for mobile operators over current OTT VoIP apps. It bridges the CS with PS networks and provides full control by the operator while maintaining the same security requirements. Moreover, we propose an additional feature for enabling multi-device reachability through the subscriber's phone number (MSISDN) which is provided by the mobile operator. The method's implementation verifies that the system has little impact on the mobile operators infrastructure. We finally conclude by providing potential business models for MNOs to increase their ARPU and outperform OTT VoIP providers.}
 }
 
 @inproceedings{kfoury2018securing,
@@ -45,7 +50,11 @@
   booktitle={2018 10th International Conference on Advanced Infocomm Technology (ICAIT)},
   pages={115--121},
   year={2018},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/8686623/},
+  pdf={Securing NATted IoT Devices Using Ethereum Blockchain and Distributed TURN Servers.pdf},
+  preview={Securing.png},
+  abstract={Peer-to-Peer (P2P) networking is a decentralized network topology that enables parties to communicate directly without central servers. The main obstacle preventing the heavy deployment of the P2P topology is the Network Address Translation (NAT) which serves as a solution for the exhaustion of IPv4 addresses. Methods proposed by the Internet Engineering Task Force (IETF) to solve the NAT traversal issues include Simple Traversal of UDP through NATs (STUN) and Traversal Using Relay NAT (TURN). STUN is limited by the type of deployed NAT, and TURN is limited by the peers' discovery mechanism which is application dependent. In this paper we propose a Blockchain-based platform that enables TURN servers to act as relays for Internet of Things (IoT) devices behind NAT. It also provides End-to-End (e2e) security for Constrained and Non-Constrained IoT devices. Results showed that the system has minimal impact on the existing network and can be a potential solution for advancing IoT deployment.}
 }
 
 @inproceedings{caicedo2021coarse,
@@ -54,7 +63,12 @@
   booktitle={2021 IEEE International Conference on Communications Workshops (ICC Workshops)},
   pages={1--6},
   year={2021},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/9473644/},
+  pdf={Coarse Estimation of Bottleneck Router's Buffer Size for Heterogeneous TCP Sources.pdf},
+  preview={Coarse.png},
+  abstract={Although the importance of router's buffer sizing in network performance is well known, estimating the current size of the bottleneck buffer is an open research problem. This paper presents a method to achieve such estimation, for the case where the bottleneck buffer operates under a finite number of buffer sizing regimes. The scheme uses a supervised machine learning approach to properly model such regimes and a classification mechanism to predict the coarse buffer size using the following end-to-end network measurements, which are collected at the sender side: throughput, Round Trip Time (RTT), and Congestion Window (CWND). In contrast to previous work, the scheme does not assume a homogeneous congestion control algorithm used by the senders. The proposed approach was tested using data collected on a real testbed. The corresponding results show that the Support Vector Machine (SVM) Radial Basis Function (RBF) classifier correctly estimates the bottleneck buffer size, under different network conditions.}
+
 }
 
 @article{kfoury2019self,
@@ -65,7 +79,11 @@
   number={1},
   pages={30--43},
   year={2019},
-  publisher={IGI Global}
+  publisher={IGI Global},
+  html={https://www.igi-global.com/article/a-self-organizing-map-intrusion-detection-system-for-rpl-protocol-attacks/216412},
+  pdf={A_Self_Organizing_Map_Intrusion_Detection_System_for_RPL_Protocol_Attacks.pdf},
+  preview={SOM.png},
+  abstract={Routing over low power and lossy networks (RPL) is a standardized routing protocol for constrained Wireless Sensor Network (WSN) environments. The main node's constraints include processing capability, power, memory, and energy. RPL protocol describes how WSN nodes create a mesh topology, enabling them to route sensor data. Unfortunately, various attacks exist on the RPL protocol that can disrupt the topology and consume nodes' energy. In this article, the authors propose an intrusion detection system (IDS) based on self-organizing map (SOM) neural network to cluster the WSN routing attacks, and hence notify the system administrator at an early stage, reducing the risk of interrupting the network and consuming nodes' power. Results showed that the proposed SOM architecture is able to cluster routing packets into three different types of attacks, as well as clean data.}
 }
 
 @inproceedings{kfoury2020offloading,
@@ -87,7 +105,11 @@
   booktitle={2020 43rd International Conference on Telecommunications and Signal Processing (TSP)},
   pages={461--465},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/9163555},
+  pdf={A Blockchain-based Method for Decentralizing the ACME Protocol to Enhance Trust in PKI.pdf},
+  preview={ACME.png},
+  abstract={Blockchain technology is the cornerstone of digital trust and systems' decentralization. The necessity of eliminating trust in computing systems has triggered researchers to investigate the applicability of Blockchain to decentralize the conventional security models. Specifically, researchers continuously aim at minimizing trust in the well-known Public Key Infrastructure (PKI) model which currently requires a trusted Certificate Authority (CA) to sign digital certificates. Recently, the Automated Certificate Management Environment (ACME) was standardized as a certificate issuance automation protocol. It minimizes the human interaction by enabling certificates to be automatically requested, verified, and installed on servers. ACME only solved the automation issue, but the trust concerns remain as a trusted CA is required. In this paper we propose decentralizing the ACME protocol by using the Blockchain technology to enhance the current trust issues of the existing PKI model and to eliminate the need for a trusted CA. The system was implemented and tested on Ethereum Blockchain, and the results showed that the system is feasible in terms of cost, speed, and applicability on a wide range of devices including Internet of Things (IoT) devices.}
 }
 
 @inproceedings{crichigno2019flow,
@@ -96,7 +118,11 @@
   booktitle={ICC 2019-2019 IEEE International Conference on Communications (ICC)},
   pages={1--7},
   year={2019},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/8761747},
+  pdf={ICC_final.pdf},
+  preview={entropy.png},
+  abstract={This paper presents a flow-based entropy characterization of a small/medium-sized campus network that uses network address translation (NAT). Although most networks follow this configuration, their entropy characterization has not been previously studied. Measurements from a production network show that the entropies of flow elements (external IP address, external port, campus IP address, campus port) and tuples have particular characteristics. Findings include: i) entropies may widely vary in the course of a day. For example, in a typical weekday, the entropies of the campus and external ports may vary from below 0.2 to above 0.8 (in a normalized entropy scale 0-1). A similar observation applies to the entropy of the campus IP address; ii) building a granular entropy characterization of the individual flow elements can help detect anomalies. Data shows that certain attacks produce entropies that deviate from the expected patterns; iii) the entropy of the 3-tuple {external IP, campus IP, campus port} is high and consistent over time, resembling the entropy of a uniform distribution's variable. A deviation from this pattern is an encouraging anomaly indicator; iv) strong negative and positive correlations exist between some entropy time-series of flow elements.}
 }
 
 @inproceedings{khoury2018decentralized,
@@ -105,7 +131,11 @@
   booktitle={2018 IEEE International Multidisciplinary Conference on Engineering Technology (IMCET)},
   pages={1--6},
   year={2018},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/8603050},
+  pdf={DecentralizedVotingPlatformBasedonEthereumBlockchain-Preprint.pdf},
+  preview={vote.png},
+  abstract={In centralized environments, the results of voting events have always been questionable and perceived differently by voters. Most existing E-Voting systems are based on centralized servers where the voters must trust the organizing authority for the integrity of the results. In this paper we propose a novel approach for a decentralized trustless voting platform that relies on Blockchain technology to solve the trust issues. The main features of this system include ensuring data integrity and transparency, and enforcing one vote per mobile phone number for every poll with ensured privacy. To accomplish this, the Ethereum Virtual Machine (EVM) is used as the Blockchain runtime environment, on which transparent, consistent and deterministic smart contracts will be deployed by organizers for each voting event to run the voting rules. Users are authenticated through their mobile phone numbers without the need of a third party server. Results showed that the system is feasible and may offer a step towards ideal environments for such experience.}
 }
 
 @article{kfoury2018secure,
@@ -115,7 +145,11 @@
   volume={13},
   number={8},
   pages={450--455},
-  year={2018}
+  year={2018},
+  html={http://www.jocm.us/index.php?m=content&c=index&a=show&catid=194&id=1243},
+  pdf={20180817033654165.pdf},
+  preview={voip_blockchain.png},
+  abstract={Blockchain is an emergent peer-to-peer technology that enables network decentralization and ensures availability by eliminating single points of failures. Furthermore, it provides data immutability by relying on consensus algorithms and protocols among peers to solve the trust concerns. In this article we provide a decentralized Blockchain-based keystore that holds the cryptographic public keys of users. This method eliminates the traditional mechanisms of distributing the public keys using central authorities (Certificate Authority). In a Voice over IP (VoIP) application, a caller can retrieve the public key of the callee from the Blockchain, and ensure the authenticity of the retrieved public key. Thus, the VoIP security complexity and intricacy are simplified on both signaling and media levels. Results of this solution implementation show that the call setup time is slightly affected compared to the existing secure VoIP solutions.}
 }
 
 @incollection{nasr2019pervasive,
@@ -124,7 +158,11 @@
   booktitle={ICT for a Better Life and a Better World},
   pages={19--34},
   year={2019},
-  publisher={Springer}
+  publisher={Springer},
+  html={https://link.springer.com/chapter/10.1007/978-3-030-10737-6_2},
+  pdf={A Pervasive IoT Mechanism to Vehicle Overspeed Detection and Reporting.pdf},
+  preview={pervasive.png},
+  abstract={One particular concern that Public Safety Organization (PSO) must account for is the excess of speed of vehicles in motion. The high speed is typically responsible for a significant proportion of the mortality and morbidity that result from road crashes. Various ineffective proposed methods and solutions have been implemented to control speed limits; for instance, Speed Detection Camera System (SDCS), Radio Detection and Ranging (RADAR), Light Detection and Ranging (LIDAR). This paper conveys an innovative, pervasive, effective and adaptable Internet of Things (IoT) system to detect and report vehicle overspeed as well as issuing tickets and fines. Our aggregated prototype is composed of five components: IoT vehicle on-board unit, Message Queuing Telemetry Transport (MQTT) broker, application logic server, data storage, and monitoring engine. A software simulation has been implemented and tested as a proof of concept. This novel technique is restricted only for governmental use since it surrogates the contemporary aforementioned speed detection systems paving the way toward a smarter and sustainable solution, and thus ensuring public safety.}
 }
 
 @inproceedings{kfoury2018secure,
@@ -133,7 +171,11 @@
   booktitle={2018 41st International Conference on Telecommunications and Signal Processing (TSP)},
   pages={1--5},
   year={2018},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/8441204},
+  pdf={Secure_End_to_End_VoLTE_based_on_EthereumBlockchain1.pdf},
+  preview={volte.png},
+  abstract={Voice over Long Term Evolution (VoLTE) technology defines standards to deliver real-time services such as voice and video over LTE based on IP Multimedia Subsystem (IMS) networks. The security implementation in VoLTE is End-to-Access (e2a), which means that the sessions are only encrypted between the mobile terminals and the IMS network. In this paper we propose a new approach for securing End-to-End (e2e) VoLTE media based the Ethereum Blockchain. The solution consists of creating public and private keypairs for VoLTE user equipments (UEs) and storing the public keys in the Ethereum Blockchain. The media is encrypted e2e using the Secure Real Time Protocol (SRTP) protocol with a variety of session key distribution mechanisms. Results showed that the solution implementation has minimal impact on the existing IMS network, and the secure call setup time between two terminals is negligible compared to the original VoLTE setup time.}
 }
 
 @inproceedings{gomez2020performance,
@@ -142,7 +184,11 @@
   booktitle={2020 43rd International Conference on Telecommunications and Signal Processing (TSP)},
   pages={309--312},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/9163512},
+  pdf={A Performance Evaluation of TCP BBRv2 Alpha.pdf},
+  preview={bbr2-jose.png},
+  abstract={The alpha version of Bottleneck Bandwidth and Round-trip Time version 2 (BBRv2) has been recently presented, which aims to mitigate the shortcomings of its predecessor, BBR version 1 (BBRv1). Previous studies show that BBRv1 provides a high link utilization and low queuing delay by estimating the available bottleneck bandwidth. However, its aggressiveness induces unfairness when flows i) use different congestion control algorithms, such as CUBIC, and ii) have distinct round-trip times (RTTs). This paper presents an experimental evaluation of BBRv2, using Mininet. Results show that the coexistence between BBRv2-CUBIC is enhanced with respect to that of BBRv1-CUBIC, as measured by the fairness index. They also show that BBRv2 mitigates the RTT unfairness problem observed in BBRv1. Additionally, BBRv2 achieves a better fair share of the bandwidth than its predecessor when network conditions such as bandwidth and latency dynamically change. Results also indicate that the average flow completion time of concurrent flows is reduced when BBRv2 is used.}
 }
 
 @inproceedings{friday2020towards,
@@ -151,7 +197,11 @@
   booktitle={2020 6th IEEE Conference on Network Softwarization (NetSoft)},
   pages={218--226},
   year={2020},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/9165336},
+  pdf={1570621290.pdf},
+  preview={towards.png},
+  abstract={Distributed Denial of Service (DDoS) attacks have terrorized our networks for decades, and with attacks now reaching 1.7 Tbps, even the slightest latency in detection and subsequent remediation is enough to bring an entire network down. Though strides have been made to address such maliciousness within the context of Software Defined Networking (SDN), they have ultimately proven ineffective. Fortunately, P4 has recently emerged as a platform-agnostic language for programming the data plane and in turn allowing for customized protocols and packet processing. To this end, we propose a first-of-a-kind P4-based detection and mitigation scheme that will not only function as intended regardless of the size of the attack, but will also overcome the vulnerabilities of SDN that have characteristically been exploited by DDoS. Moreover, it successfully defends against the broad spectrum of currently relevant attacks while concurrently emphasizing the Quality of Service (QoS) of legitimate end-users and overall SDN functionality. We demonstrate the effectiveness of the proposed scheme using a software programmable P4-switch, namely, the Behavorial Model version 2 (BMv2), showing its ability to withstand a variety of DDoS attacks in real-time via three use cases that can be generalized to most contemporary attack vectors. Specifically, the results substantiate that the mechanism herein is orders of magnitude faster than traditional polling techniques (e.g., NetFlow or sFlow) while minimizing the impact on benign traffic. We concur that the approach's design particularities facilitate seamless and scalable deployments in high-speed networks requiring line-rate functionality, in addition to being generic enough to be integrated into viable network topologies.}
 }
 
 @article{kfoury2019decentralized,
@@ -161,7 +211,11 @@
   volume={7},
   pages={110159--110173},
   year={2019},
-  publisher={IEEE}
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/document/8792050},
+  pdf={Decentralized Distribution of PCP Mappings over Blockchain for End-to-End Secure Direct Communications.pdf},
+  preview={pcp.png},
+  abstract={Network Address Translation (NAT) is a method that enables devices with private IP addresses to connect to the Internet by sharing a public IP address. Traversing the NAT device remains a challenge for a wide range of applications such as Voice over IP (VoIP) and Internet of Things (IoT). The Port Control Protocol (PCP) is a relatively new protocol standardized by the Internet Engineering Task Force (IETF) to solve the NAT traversal issues. It allows a NATed device to request and manage a mapping between its private IP address and transport-layer port to a public IP address and port. As PCP requires an application-dependent method for distributing the mappings to remote hosts, several attacks can target the distributing server and render the communication channel vulnerable. In this paper, we propose and implement a decentralized Blockchain-based approach for distributing PCP-mappings, enabling secure end-to-end (e2e) direct communications without any trusted third party server. NATed devices register their PCP mappings and public keys into the Blockchain, and other peers can then learn about these mappings to establish end-to-end secure direct communications. The implementation verifies that the system is feasible in terms of transactions fees, can simplify and secure end-to-end direct communications, and can interwork with conventional security methods.}
 }
 
 @inproceedings{kfoury2018distributed,
@@ -170,7 +224,11 @@
   booktitle={2018 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)},
   pages={1116--1120},
   year={2018},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/8726475},
+  pdf={Distributed Public Key Infrastructure and PSK Exchange Based on Blockchain.pdf},
+  preview={dpk.png},
+  abstract={Public key distribution and device authentication remain the main security challenges in many systems and applications. Existing solutions are based on Public Key Infrastructures (PKI) backed by Certificate Authorities (CA) to validate the authenticity of the devices. However, distributing and provisioning certificates for each client showed to be impractical especially for Internet of Things (IoT) devices. In this paper we propose a distributed PKI (Public Key Infrastructure) platform based on the Ethereum Blockchain. It contains a decentralized key-store that holds the public keys of all devices, and includes a generic protocol for PSK (Pre-Shared Keys) distribution. PSK keys can then be used by PSK-based security protocols (TLS-PSK, DTLS-PSK, SRTP...) for securing the communication channel between two devices. This platform includes a client-side module, a public key management module configured on the server, and a smart contract software deployed on the Ethereum Blockchain network. This generic platform can be used by many applications for client and server authentication, data integrity, and secure peer to peer communications. Moreover, this promising system may potentially eliminate the trust requirement imposed by the existing PKI/CAs infrastructure on clients.}
 }
 
 @inproceedings{khoury2017generic,
@@ -179,7 +237,11 @@
   booktitle={2017 Sensors Networks Smart and Emerging Technologies (SENSET)},
   pages={1--4},
   year={2017},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/8125033},
+  pdf={GenericHybridMethodsforSecureConnectionsbasedonthe_IntegrationofGBAandTLS-CA.pdf},
+  preview={gba.png},
+  abstract={The Generic Bootstrapping Architecture (GBA) is standardized by the Third Generation Partnership Project (3GPP) to provide authentication and data confidentiality based on the existing Mobile Network Operator's (MnO) infrastructure. Unfortunately, this method is not well deployed as the MNO is not always fully trusted by its clients. On the other hand, Transport Layer Security (TLS) is a well-spread protocol that provides strong authentication and data confidentiality based on Public Key Infrastructure (PKI) and certificate distribution. However, distributing certificates for each client remains impractical especially for Internet of Things (IoT) devices. In this paper, we propose hybrid methods that integrate both mechanisms to provide mutual authentication based on two trusted authorities. Each proposed method is deployed depending on the adopted devices and security requirements. Finally we estimate the impact of each of these methods and we conclude with the intended future work.}
 }
 
 @inproceedings{nasr2016iot,
@@ -188,7 +250,11 @@
   booktitle={2016 IEEE International Multidisciplinary Conference on Engineering Technology (IMCET)},
   pages={231--236},
   year={2016},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/7777457},
+  pdf={An IoT Approach to Vehicle Accident_Detection, Reporting, and Navigation.pdf},
+  preview={accident.png},
+  abstract={One particular concern that Public Safety Organizations (PSO) must account for whilst engaging in many activities is decreasing the effect of vehicle accidents, aiding as many injured people as possible and providing 24/7 on the spot rescue. The Red Cross humanitarian organization is one of the most known PSOs to be present on-site whenever an accident or a disaster takes place. However, some of the rescue teams face difficulty in reaching the injured people to due late alerts and insufficient information of the specific accident location. The advent of the mobile phone and Internet of Things (IoT) industries reshaped the way people communicate and brought a paradigm shift to public and private services [1]. This ever-evolving technology marked the beginning of new era affecting the lives of people and various businesses. This paper conveys a smart and reliable IoT system solution which instantly notifies the PSO headquarter whenever an accident takes place and pinpoints its geographic coordinates on the map. When an accident takes place, a shock sensor detects it. Then, an algorithm is applied to process the sensor signal and send the geographic location along with some ancillary information to the PSO headquarter, indicating accident occurrence. This is a promising system expected to aid in the tedious rescuing process by reporting in a matter of seconds the location of an accident, the passengers injured, blood types, thus lowering death's rates. The geographical data collected from this system could be relied upon as admissible evidence or indicator of the road state and conditions.}
 }
 
 @article{kfoury2020emulation,
@@ -198,7 +264,11 @@
   volume={161},
   pages={212--224},
   year={2020},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  html={https://www.sciencedirect.com/science/article/pii/S014036642030092X},
+  pdf={BBRv2_Final_ComCom.pdf},
+  preview={bbr2-elie.png},
+  abstract={Google published the first release of the Bottleneck Bandwidth and Round-trip Time (BBR) congestion control algorithm in 2016. Since then, BBR has gained a widespread attention due to its ability to operate efficiently in the presence of packet loss and in scenarios where routers are equipped with small buffers. These characteristics were not attainable with traditional loss-based congestion control algorithms such as CUBIC and Reno. BBRv2 is a recent congestion control algorithm proposed as an improvement to its predecessor, BBRv1. Preliminary work suggests that BBRv2 maintains the high throughput and the bounded queueing delay properties of BBRv1. However, the literature has been missing an evaluation of BBRv2 under different network conditions. This paper presents an experimental evaluation of BBRv2 Alpha (v2alpha-2019-07-28) on Mininet, considering alternative active queue management (AQM) algorithms, routers with different buffer sizes, variable packet loss rates and round-trip times (RTTs), and small and large numbers of TCP flows. Emulation results show that BBRv2 tolerates much higher random packet loss rates than loss-based algorithms but slightly lower than BBRv1. The results also confirm that BBRv2 has better coexistence with loss-based algorithms and lower retransmission rates than BBRv1, and that it produces low queuing delay even with large buffers. When a Tail Drop policy is used with large buffers, an unfair bandwidth allocation is observed among BBRv2 and CUBIC flows. Such unfairness can be reduced by using advanced AQM schemes such as FQ-CoDel and CAKE. Regarding fairness among BBRv2 flows, results show that using small buffers produces better fairness, without compromising high throughput and link utilization. This observation applies to BBRv1 flows as well, which suggests that rate-based model-based algorithms work better with small buffers. BBRv2 also enhances the coexistence of flows with different RTTs, mitigating the RTT unfairness problem noted in BBRv1. Lastly, the paper presents the advantages of using TCP pacing with a loss-based algorithm, when the rate is manually configured a priori. Future algorithms could set the pacing rate using explicit feedback generated by modern programmable switches.}
 }
 
 @inproceedings{crichigno2021distributed,
@@ -207,14 +277,22 @@
   booktitle={2021 44th International Conference on Telecommunications and Signal Processing (TSP)},
   pages={195--198},
   year={2021},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/9522672},
+  pdf={A Distributed Academic Cloud and Virtual Laboratories for Information Technology Education and Research.pdf},
+  preview={academic-cloud.png},
+  abstract={This paper describes the development of an Academic Cloud and hands-on virtual laboratories that run on this cloud. The system has been deployed by the University of South Carolina, Stanly Community College, and the Network Development Group. The Academic Cloud provides remote-access capability to laboratory equipment via the Internet and seamlessly pools and shares resources (CPU, memory, storage) from four data centers. The data centers are located in South Carolina, North Carolina, Illinois, and Idaho. The virtual laboratories are disseminated via workshops that are organized by the project team. In one year, the Academic Cloud has served over 100,000 learners. Based on input from workshops’ participants who used the platform, the quality of the Academic Cloud and virtual laboratories have exceeded initial expectation.}
 }
 
 @inproceedings{crichigno2020training,
   title={Training and teaching students and it professionals on high-throughput networking and cybersecurity using a private cloud},
   author={Crichigno, Jorge and Bou-Harb, Elias and Kfoury, Elie and Gomez, Jose and Mangino, Antonio},
   booktitle={2020 Annual Conference of the American Society for Engineering Education},
-  year={2020}
+  year={2020},
+  html={https://strategy.asee.org/training-and-teaching-students-and-it-professionals-on-high-throughput-networking-and-cybersecurity-using-a-private-cloud},
+  pdf={ASEE2020.pdf},
+  preview={asee.png},
+  abstract={This paper describes the deployment of a private cloud and the development of virtual laboratories and companion material to teach and train engineering students and Information Technology (IT) professionals in high-throughput networks and cybersecurity. The material and platform, deployed at the University of South Carolina, are also used by other institutions to support regular academic courses, self-pace training of professional IT staff, and workshops across the country. The private cloud is used to deploy scenarios consisting of high-speed networks (up to 50 Gbps), multi-domain environments emulating internetworks, and infrastructures under cyber-attacks using live traffic. For regular academic courses, the virtual laboratories have been adopted by institutions in different states to supplement theoretical material with hands-on activities in IT, electrical engineering, and computer science programs. Topics include Local Area Networks (LANs), congestion-control algorithms, performance tools used to emulate wide area networks (WANs) and their attributes (packet loss, reordering, corruption, latency, jitter, etc.), data transfer applications for high-speed networks, queueing delay and buffer size in routers and switches, active monitoring of multi-domain systems, high-performance cybersecurity tools such as Zeek’s intrusion detection systems, and others. The training platform has been also used by IT professionals from more than 30 states, for self-pace training. The material provides training on topics beyond general-purpose network, which are usually overlooked by practitioners and researchers. The virtual laboratories and companion material have also been used in workshops organized across the country. Workshops are co-organized with organizations that operate large backbone networks connecting research centers and national laboratories, and colleges and universities conducting teaching and research activities.}
 }
 
 @inproceedings{farran2021blockchain,
@@ -223,16 +301,11 @@
   booktitle={2021 44th International Conference on Telecommunications and Signal Processing (TSP)},
   pages={208--213},
   year={2021},
-  organization={IEEE}
-}
-
-@inproceedings{crichigno2021distributed,
-  title={A Distributed Academic Cloud and Virtual Laboratories for Information Technology Education and Research},
-  author={Crichigno, Jorge and Kfoury, Elie and Caudle, Kelly and Crump, Paul},
-  booktitle={2021 44th International Conference on Telecommunications and Signal Processing (TSP)},
-  pages={195--198},
-  year={2021},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/9522599/},
+  pdf={V2XblockchainpaperTSP.pdf},
+  preview={v2x.png},
+  abstract={The security proposed for Vehicle-to-Everything (V2X) systems in the European Union is specified in the ETSI Cooperative Intelligent Transport System (C-ITS) standards, and related documents are based on the trusted PKI/CAs. The C-ITS trust model platform comprises an EU Root CA and additional Root CAs run in Europe by member state authorities or private organizations offering certificates to individual users. A new method is described in this paper where the security in V2X is based on the Distributed Public Keystore (DPK) platform developed for Ethereum blockchain. The V2X security is considered as one application of the DPK platform. The DPK stores and distributes the vehicles, RSUs, or other C-ITS role-players’ public keys. It establishes a generic key exchange/ agreement scheme that provides mutual key, entity authentication, and distributing a session key between two peers. V2X communication based on this scheme can establish an end-to-end (e2e) secure session and enables vehicle authentication without the need for a vehicle certificate signed by a trusted Certificate Authority.}
 }
 
 @article{kfoury2021exhaustive,
@@ -242,7 +315,11 @@
   volume={9},
   pages={87094--87155},
   year={2021},
-  publisher={IEEE}
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/document/9447791/},
+  pdf={An Exhaustive Survey on P4 Programmable Data Plane Switches Taxonomy, Applications, Challenges, and Future Trends.pdf},
+  preview={p4_survey.png},
+  abstract={Traditionally, the data plane has been designed with fixed functions to forward packets using a small set of protocols. This closed-design paradigm has limited the capability of the switches to proprietary implementations which are hard-coded by vendors, inducing a lengthy, costly, and inflexible process. Recently, data plane programmability has attracted significant attention from both the research community and the industry, permitting operators and programmers in general to run customized packet processing functions. This open-design paradigm is paving the way for an unprecedented wave of innovation and experimentation by reducing the time of designing, testing, and adopting new protocols; enabling a customized, top-down approach to develop network applications; providing granular visibility of packet events defined by the programmer; reducing complexity and enhancing resource utilization of the programmable switches; and drastically improving the performance of applications that are offloaded to the data plane. Despite the impressive advantages of programmable data plane switches and their importance in modern networks, the literature has been missing a comprehensive survey. To this end, this paper provides a background encompassing an overview of the evolution of networks from legacy to programmable, describing the essentials of programmable switches, and summarizing their advantages over Software-defined Networking (SDN) and legacy devices. The paper then presents a unique, comprehensive taxonomy of applications developed with P4 language; surveying, classifying, and analyzing more than 200 articles; discussing challenges and considerations; and presenting future perspectives and open research issues.}
 }
 
 @inproceedings{kfoury2021dynamic,
@@ -251,7 +328,11 @@
   booktitle={2021 IEEE Global Communications Conference (GLOBECOM)},
   pages={01--06},
   year={2021},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/9685160/},
+  pdf={Dynamic Router's Buffer Sizing using Passive Measurements and P4 Programmable Switches.pdf},
+  preview={buffer_globecome.png},
+  abstract={The router's buffer size imposes significant implications on the performance of the network. Network operators nowadays configure the router's buffer size manually and stati-cally. They typically configure large buffers that fill up and never go empty, increasing the Round-trip Time (RTT) of packets significantly and decreasing the application performance. Few works in the literature dynamically adjust the buffer size, but are implemented only in simulators, and therefore cannot be tested and deployed in production networks with real traffic. Previous work suggested setting the buffer size to the Bandwidth-delay Product (BDP) divided by the square root of the number of long flows. Such formula is adequate when the RTT and the number of long flows are known in advance. This paper proposes a system that leverages programmable switches as passive instruments to measure the RTT and count the number of flows traversing a legacy router. Based on the measurements, the programmable switch dynamically adjusts the buffer size of the legacy router in order to mitigate the unnecessary large queuing delays. Results show that when the buffer is adjusted dynamically, the RTT, the loss rate, and the fairness among long flows are enhanced. Additionally, the Flow Completion Time (FCT) of short flows sharing the queue is greatly improved. The system can be adopted in campus, enterprise, and service provider networks, without the need to replace legacy routers.}
 }
 
 @article{alsabeh2022survey,
@@ -261,7 +342,11 @@
   volume={207},
   pages={108800},
   year={2022},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  html={https://www.sciencedirect.com/science/article/pii/S1389128622000287/},
+  pdf={P4_Security_Survey___Comp_Networks-10.pdf},
+  preview={sec_p4_survey.png},
+  abstract={The emergence of the IoT, cloud systems, data centers, and 5G networks is increasing the demand for a rapid development of new applications and protocols at all levels of the protocol stack. However, traditional fixed-function data planes have been characterized by a lengthy and costly development process at the hand of few chip manufacturers. Recently, data plane programmability has attracted significant attention, permitting network owners to run customized packet processing functions using P4, the de facto data plane programming language. Network security is one of the key research areas exploiting the capabilities of programmable switches. Examples include new encapsulations and secure tunnels implemented in short times, mitigation techniques for DDoS attacks that occur at terabit rates, customized firewalls that track hundreds of thousands of connections per second, and traffic anonymization systems that operate at line rate. Moreover, applications can be reconfigured in the field without additional hardware upgrades, facilitating the deployment of new defenses against unforeseen attacks and vulnerabilities. Furthermore, these security applications are designed by network owners who can meet their specific requirements, rather than by chip manufacturers. Despite the impressive advantages of programmable data plane switches, the literature has been missing a comprehensive survey on security applications. To this end, this paper provides a concise background on programmable switches and their main features that are relevant to security. It then presents a taxonomy that surveys, classifies, and analyzes articles related to security applications developed with P4. Additionally, the paper employs a STRIDE analysis to examine vulnerabilities related to general P4 applications (e.g., congestion control, load balancing, in-network cache) and proposes plausible remediation approaches. Furthermore, challenges associated with programmable data planes, the impact of these challenges on security implementations, and schemes to eliminate or mitigate them are discussed. Finally, the paper discusses future endeavors and open research problems.}
 }
 
 @misc{khoury2022method,
@@ -270,7 +355,12 @@
   year={2022},
   month=mar # "~10",
   publisher={Google Patents},
-  note={US Patent App. 17/416,140}
+  note={US Patent App. 17/416,140},
+  html={https://patents.google.com/patent/US20220078216A1/en/},
+  pdf={US20220078216A1.pdf},
+  preview={US_patent.png},
+  abstract={Provided is a method for initiating a mobile voice call from a caller UE to a callee UE having a SIM card associated with a callee phone number, which callee phone number is a E.164 compliant MSISDN. The method includes providing a software function at the callee UE, which software function is associated with a receiving address comprising the callee phone number, and configuring a call forwarding function in a first network, being activated for the callee phone number and configured for forwarding CS voice calls to a forwarding phone number associated with a VOIP service. The method also includes the caller UE calling the callee phone number, the first network performing the call forwarding to the VOIP service, the VOIP service identifying the callee UE, and the VOIP service initiating the call between the caller UE and the software function using the receiving address.}
+
 }
 
 @inproceedings{alsabeh2022p4ddpi,
@@ -278,7 +368,11 @@
   author={AlSabeh, Ali and Kfoury, Elie and Crichigno, Jorge and Bou-Harb, Elias},
   booktitle={Proceedings of the 2022 Network and Distributed System Security (NDSS) Symposium},
   pages={1--7},
-  year={2022}
+  year={2022},
+  html={https://www.ndss-symposium.org/ndss-paper/auto-draft-280/},
+  pdf={madweb22-final12.pdf},
+  preview={p4dpi.png},
+  abstract={One of the main roles of the Domain Name System (DNS) is to map domain names to IP addresses. Despite the importance of this function, DNS traffic often passes without being analyzed, thus making the DNS a center of attacks that keep evolving and growing. Software-based mitigation approaches and dedicated state-of-the-art firewalls can become a bottleneck and are subject to saturation attacks, especially in high-speed networks. The emerging P4-programmable data plane can implement a variety of network security mitigation approaches at high-speed rates without disrupting legitimate traffic. This paper describes a system that relies on programmable switches and their stateful processing capabilities to parse and analyze DNS traffic solely in the data plane, and subsequently apply security policies on domains according to the network administrator. In particular, Deep Packet Inspection (DPI) is leveraged to extract the domain name consisting of any number of labels and hence, apply filtering rules ( e.g., b locking malicious domains). Evaluation results show that the proposed approach can parse more domain labels than any state-of-the-art P4-based approach. Additionally, a significant performance gain is attained when comparing it to a traditional software firewall -pfsense-, in terms of throughput, delay, and packet loss. The resources occupied by the implemented P4 program are minimal, which allows for more security functionalities to be added.}
 }
 
 @inproceedings{gomez2022enabling,
@@ -287,7 +381,12 @@
   booktitle={2022 18th International Conference on Distributed Computing in Sensor Systems (DCOSS)},
   pages={426--429},
   year={2022},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/9881676/},
+  pdf={TEPN 2022.pdf},
+  preview={tepn.png},
+  abstract={This paper describes a cloud infrastructure and virtual laboratories on P4 programmable data plane switches. P4 programmable data planes emerged as a technology that enables innovation in networking. P4 is a programming language used to describe how network packets are processed. This paper explains an entry-level training library on P4. The virtual laboratories introduce the learner to P4 and data plane concepts by providing step-by-step guides and exercises. The virtual laboratories are hosted in the Academic Cloud, a distributed platform that manages and orchestrates computing resources. Additionally, the paper describes a work in progress of P4 virtual laboratories that uses Intel Tofino switches. Lastly, the paper discusses the use of the Academic Cloud as a network testbed.}
+
 }
 
 @article{gomez2022survey,
@@ -296,14 +395,21 @@
   journal={Computer Networks},
   pages={109030},
   year={2022},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  html={https://www.sciencedirect.com/science/article/pii/S1389128622001852/},
+  pdf={TCP-P4-Survey.pdf},
+  preview={tcp_p4.png},
+  abstract={The increasing performance requirements of today’s Internet applications demand a reliable mechanism to transfer data. Many applications rely on the Transmission Control Protocol (TCP) as the transport protocol, due to its ability to adapt to properties of the network and to be robust in the face of many kinds of failures. However, improving the performance of applications that rely on TCP has been limited by the closed nature of legacy switches, which do not provide accurate visibility of network events. With the emergence of P4-programmable devices, developers can rapidly implement and test customized solutions that use fine-grained telemetry, provide sub round-trip time feedback to end devices to enhance congestion control, precisely isolate traffic to offer better Quality of Service (QoS), quickly detect congestion and re-route traffic via alternate paths, and optimize server resources by offloading protocols. This paper first surveys recent works on P4-programmable devices, focusing on schemes aimed at enhancing TCP performance. It provides a taxonomy classifying the aspects that impact TCP’s behavior, such as congestion control, Active Queue Management (AQM) algorithms, TCP offloading, and network measurement schemes. Then, it compares the P4-based solutions, and contrasts those solutions with legacy implementations. Lastly, the paper presents challenges and future trends.}
 }
 
 @misc{crichigno2022high,
   title={High-Speed Networks, A Tutorial},
   author={Crichigno, Jorge and Kfoury, Elie and Bou-Harb, Elias and Ghani, Nasir},
   year={2022},
-  publisher={Practical Networking, Springer International Publishing}
+  publisher={Practical Networking, Springer International Publishing},
+  html={https://link.springer.com/book/10.1007/978-3-030-88841-1/},
+  preview={hsn.png},
+  abstract={Welcome to High-Speed Networks: A Tutorial. This book is the result of a journey of the authors who have been designing and deploying high-speed networks for several years, in particular Science Demilitarized Zones (Science DMZs). The Science DMZ is a high-speed network designed to facilitate the transfer of big science data. As the popularity of high-speed networks and Science DMZs surged, the need for professionals with the skills to operate such infrastructures has increased. How- ever, practitioners have been mostly trained to operate general-purpose networks, which have different characteristics from those of Science DMZs and other high- performance networks. At the time when the authors started designing and operating Science DMZs, the available material was limited to workshops organized by ESnet, the Scientific Networking Division at Lawrence Berkeley National Laboratory in the United States (U.S.). This book tries to address the above gap. It provides practical knowledge and skills on Science DMZs and high-speed networks in general, which are reinforced with virtual laboratory experiments}
 }
 
 @inproceedings{friday2022inc,
@@ -312,7 +418,12 @@
   booktitle={European Symposium on Research in Computer Security},
   pages={551--569},
   year={2022},
-  organization={Springer, Cham}
+  organization={Springer, Cham},
+  html={https://link.springer.com/chapter/10.1007/978-3-031-17140-6_27/},
+  pdf={ESORICS_2022.pdf},
+  preview={inc.png},
+  abstract={The ever-increasing botnet presence has enabled attackers to compromise millions of nodes and launch a plethora of Internet-scale coordinated attacks within a very short period of time. While the challenge of identifying and patching the vulnerabilities that these botnets exploit in a timely manner has proven elusive, a more promising solution is to mitigate such exploitation attempts at core traffic transmission mediums, such as within the forwarding devices of ISPs, backbones, and other high-rate network environments. To this end, we present an In-Network Classification (INC) technique to fingerprint the spread of botnets at wire-speed within busy networks. In particular, INC employs a unique bagging classification system residing entirely within programmable switch hardware in order to classify and subsequently mitigate bot infections amid Tbps traffic rates. Additionally, INC immediately pushes the data plane features of mitigated bots to the controller to infer botnet orchestration in real-time via behavioral clustering. INC was comprehensively evaluated against several datasets and achieved state-of-the-art results while reducing the detection times of comparable techniques by several orders of magnitude. Further, we demonstrate that INC can generalize well to previously unseen botnets.}
+
 }
 
 @inproceedings{khoury2022implementation,
@@ -321,5 +432,10 @@
   booktitle={2022 45th International Conference on Telecommunications and Signal Processing (TSP)},
   pages={17--22},
   year={2022},
-  organization={IEEE}
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/9851252/},
+  pdf={2022114441.pdf},
+  preview={bdcv.png},
+  abstract={Security in the communication systems rely mainly on a trusted Public Key Infrastructure (PKI) and Certificate Authorities (CAs). Besides the lack of automation, the complexity and the cost of assigning a signed certificate to a device, several allegations against CAs have been discovered, which has created trust issues in adopting this standard model for secure systems. The automation of the servers certificate assignment was achieved by the Automated Certificate Management Environment (ACME) method, but without confirming the trust of assigned certificate. This paper presents a complete tested and implemented solution to solve the trust of the Certificates provided to the servers by using the blockchain platform for certificate validation. The Blockchain network provides an immutable data store, holding the public keys of all domain names, while resolving the trust concerns by applying an automated Blockchain-based Domain Control Validation (B-DCV) for the server and client server verification. The evaluation was performed on the Ethereum Rinkeby testnet adopting the Proof of Authority (PoA) consensus algorithm which is an improved version of Proof of Stake (PoS) applied on Ethereum 2.0 providing superior performance compared to Ethereum 1.0.}
+
 }
