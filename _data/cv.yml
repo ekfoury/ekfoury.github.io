@@ -2,96 +2,81 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Elie F. Kfoury
     - name: Languages
-      value: English, German
+      value: English, Arabic, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD student
+      institution: University of South Carolina, Columbia, USA
+      year: 2019-2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - PhD in informatics, with emphasis on cyberinfrastructure, high-speed networks, and cybersecurity.
+    - title: Masters of Science (M.S.)
+      institution: American University of Science and Technology (AUST), Beirut, Lebanon.
+      year: 2015-2018
       description:
-        - Description 1.
-        - Description 2.
+        - Masters of Science in Computer Science.
+        - GPA 4.0/4.0.
+    - title: Bachelor of Science (B.S.)
+      institution: American University of Science and Technology (AUST), Beirut, Lebanon.
+      year: 2012-2015
+      description:
+        - Bachelor of Science in Computer Science.
+        - GPA 3.75/4.0.
 
-- title: Experience
+- title: Academic Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research/Teaching Assistant
+      institution: Integrated Information Technology, USC
+      year: 2019 - Present
+    - title: Research/Teaching Assistant
+      institution: Department of Computer Science and ICT, AUST
+      year: 2015-2018
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2018
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Best paper award 
+        - Secure End-to-End VoIP System based on Ethereum Blockchain, International Conference on Communication and Network Protocol (ICCNP 2018), Paris, France, 2018. Link - https://tinyurl.com/bde2ph3d.
+    - year: 2017
       items: 
-        - Max Planck Medal
+        - Ericsson Startup Challenge
+        - Ericsson Garage has launched this competition in cooperation with Capital A Partners (CAP A), and Butterfly Ventures. I was the lead developer as part of Secumobi AB, a Swedish startup specialized in IoT, systems security and Blockchain technology. The project was among the nine finalists from the 189 startup participation forms received. The nine startups were selected to pitch their ideas in front of a live Dragons Den (a jury of specialized experts) which included B ̈orje Ekholm, the CEO of Ericsson, at the Ericsson Studio in collaboration with the STHLM TechFest. Secumobi AB won the second prize, which included one hour of mentoring and investments with Cap A or Butterfly, as well as free access to run the project and test it in the Urban ICT Arena in Stockholm, Sweden for three months (2017). Links - https://tinyurl.com/2p9a77d8, https://tinyurl.com/4d683msy.
+    - year: 2017
+      items: 
+        - Alfa and Ericsson Internet of Things (IoT) Award
+        - Alfa (the main mobile network in Lebanon) and Ericsson launched the competition in November 2016 in collaboration with the IEEE chapter in Lebanon. Twenty teams constituted of students in telecom, computer, and electrical engineering in senior years from eleven universities took part in this multi-phase competition over eight weeks, presenting their IoT projects before a jury of experts. Five teams were qualified for the final round, and my team won the first prize for the project entitled “eHealth Monitoring & Reporting Device for Real-time Patient Monitoring and Anomaly Reporting” (2017). The prize included $5000, as well as investment opportunities with main tech companies in Lebanon. Link - https://tinyurl.com/32594747.
+    - year: 2017
+      items: 
+        - Best Paper Award
+        - An Innovative Lightweight IoT eHealth Monitoring System for Patients of Cardiac, Dementia and Cognitive Decline Diseases”, AIS Lebanese Conference on Information Systems (LCIS 2017), Beirut, Lebanon, 2017.
+    - year: 2015
+      items: 
+        - Best Computer Science Project, Yearly Expo at AUST
+        - In this project, I developed an Android application that provides recommendations and instructions to obtain a healthy tanning experience. The project used computer vision and machine learning techniques.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
 
-- title: Other Interests
-  type: list
+- title: Societies and Technical Groups
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2020 - Present
+      items: 
+          - ACM Student Membership
+    - year: 2020 - Present
+      items: 
+          - IEEE Communications Society (ComSoc) Membership
+    - year: 2015 - Present
+      items: 
+          - IEEE (Institute of Electrical and Electronics Engineering), Graduate Student Member
+    - year: 2015 - Present
+      items: 
+          - IEEE Young Professionals
+    - year: 2016 - Present
+      items: 
+          - AIS (Association for Information Systems), Academic member
