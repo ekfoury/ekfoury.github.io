@@ -3,6 +3,48 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{kfoury2021exhaustive,
+  title={An Exhaustive Survey on P4 Programmable Data Plane Switches: Taxonomy, Applications, Challenges, and Future Trends},
+  author={Kfoury, Elie F and Crichigno, Jorge and Bou-Harb, Elias},
+  journal={IEEE Access},
+  volume={9},
+  pages={87094--87155},
+  year={2021},
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/document/9447791/},
+  pdf={An Exhaustive Survey on P4 Programmable Data Plane Switches Taxonomy, Applications, Challenges, and Future Trends.pdf},
+  preview={p4_survey.png},
+  abstract={Traditionally, the data plane has been designed with fixed functions to forward packets using a small set of protocols. This closed-design paradigm has limited the capability of the switches to proprietary implementations which are hard-coded by vendors, inducing a lengthy, costly, and inflexible process. Recently, data plane programmability has attracted significant attention from both the research community and the industry, permitting operators and programmers in general to run customized packet processing functions. This open-design paradigm is paving the way for an unprecedented wave of innovation and experimentation by reducing the time of designing, testing, and adopting new protocols; enabling a customized, top-down approach to develop network applications; providing granular visibility of packet events defined by the programmer; reducing complexity and enhancing resource utilization of the programmable switches; and drastically improving the performance of applications that are offloaded to the data plane. Despite the impressive advantages of programmable data plane switches and their importance in modern networks, the literature has been missing a comprehensive survey. To this end, this paper provides a background encompassing an overview of the evolution of networks from legacy to programmable, describing the essentials of programmable switches, and summarizing their advantages over Software-defined Networking (SDN) and legacy devices. The paper then presents a unique, comprehensive taxonomy of applications developed with P4 language; surveying, classifying, and analyzing more than 200 articles; discussing challenges and considerations; and presenting future perspectives and open research issues.},
+  selected={true}
+}
+
+@misc{crichigno2022high,
+  title={High-Speed Networks, A Tutorial},
+  author={Crichigno, Jorge and Kfoury, Elie and Bou-Harb, Elias and Ghani, Nasir},
+  year={2022},
+  publisher={Practical Networking, Springer International Publishing},
+  html={https://link.springer.com/book/10.1007/978-3-030-88841-1/},
+  preview={hsn.png},
+  abstract={Welcome to High-Speed Networks: A Tutorial. This book is the result of a journey of the authors who have been designing and deploying high-speed networks for several years, in particular Science Demilitarized Zones (Science DMZs). The Science DMZ is a high-speed network designed to facilitate the transfer of big science data. As the popularity of high-speed networks and Science DMZs surged, the need for professionals with the skills to operate such infrastructures has increased. How- ever, practitioners have been mostly trained to operate general-purpose networks, which have different characteristics from those of Science DMZs and other high- performance networks. At the time when the authors started designing and operating Science DMZs, the available material was limited to workshops organized by ESnet, the Scientific Networking Division at Lawrence Berkeley National Laboratory in the United States (U.S.). This book tries to address the above gap. It provides practical knowledge and skills on Science DMZs and high-speed networks in general, which are reinforced with virtual laboratory experiments},
+  selected={true}
+}
+
+@article{kfoury2020emulation,
+  title={An Emulation-based Evaluation of TCP BBRv2 Alpha for Wired Broadband},
+  author={Kfoury, Elie F and Gomez, Jose and Crichigno, Jorge and Bou-Harb, Elias},
+  journal={Computer Communications},
+  volume={161},
+  pages={212--224},
+  year={2020},
+  publisher={Elsevier},
+  html={https://www.sciencedirect.com/science/article/pii/S014036642030092X},
+  pdf={BBRv2_Final_ComCom.pdf},
+  preview={bbr2-elie.png},
+  abstract={Google published the first release of the Bottleneck Bandwidth and Round-trip Time (BBR) congestion control algorithm in 2016. Since then, BBR has gained a widespread attention due to its ability to operate efficiently in the presence of packet loss and in scenarios where routers are equipped with small buffers. These characteristics were not attainable with traditional loss-based congestion control algorithms such as CUBIC and Reno. BBRv2 is a recent congestion control algorithm proposed as an improvement to its predecessor, BBRv1. Preliminary work suggests that BBRv2 maintains the high throughput and the bounded queueing delay properties of BBRv1. However, the literature has been missing an evaluation of BBRv2 under different network conditions. This paper presents an experimental evaluation of BBRv2 Alpha (v2alpha-2019-07-28) on Mininet, considering alternative active queue management (AQM) algorithms, routers with different buffer sizes, variable packet loss rates and round-trip times (RTTs), and small and large numbers of TCP flows. Emulation results show that BBRv2 tolerates much higher random packet loss rates than loss-based algorithms but slightly lower than BBRv1. The results also confirm that BBRv2 has better coexistence with loss-based algorithms and lower retransmission rates than BBRv1, and that it produces low queuing delay even with large buffers. When a Tail Drop policy is used with large buffers, an unfair bandwidth allocation is observed among BBRv2 and CUBIC flows. Such unfairness can be reduced by using advanced AQM schemes such as FQ-CoDel and CAKE. Regarding fairness among BBRv2 flows, results show that using small buffers produces better fairness, without compromising high throughput and link utilization. This observation applies to BBRv1 flows as well, which suggests that rate-based model-based algorithms work better with small buffers. BBRv2 also enhances the coexistence of flows with different RTTs, mitigating the RTT unfairness problem noted in BBRv1. Lastly, the paper presents the advantages of using TCP pacing with a loss-based algorithm, when the rate is manually configured a priori. Future algorithms could set the pacing rate using explicit feedback generated by modern programmable switches.},
+  selected={true}
+}
+
+
 @inproceedings{alsabeh2020leveraging,
   title={Leveraging SONiC Functionalities in Disaggregated Network Switches},
   author={AlSabeh, Ali and Kfoury, Elie and Crichigno, Jorge and Bou-Harb, Elias},
@@ -19,7 +61,7 @@
 
 
 @inproceedings{kfoury2019enabling,
-  title={Enabling TCP pacing using programmable data plane switches},
+  title={Enabling TCP Pacing using Programmable Data Plane Switches},
   author={Kfoury, Elie F and Crichigno, Jorge and Bou-Harb, Elias and Khoury, David and Srivastava, Gautam},
   booktitle={2019 42nd International Conference on Telecommunications and Signal Processing (TSP)},
   pages={273--277},
@@ -45,7 +87,7 @@
 }
 
 @inproceedings{kfoury2018securing,
-  title={Securing natted iot devices using ethereum blockchain and distributed turn servers},
+  title={Securing NATted IoT Devices using Ethereum Blockchain and Distributed TURN Servers},
   author={Kfoury, Elie and Khoury, David},
   booktitle={2018 10th International Conference on Advanced Infocomm Technology (ICAIT)},
   pages={115--121},
@@ -72,7 +114,7 @@
 }
 
 @article{kfoury2019self,
-  title={A self organizing map intrusion detection system for rpl protocol attacks},
+  title={A Self Organizing Map Intrusion Detection System for RPL Protocol Attacks},
   author={Kfoury, Elie and Saab, Julien and Younes, Paul and Achkar, Roger},
   journal={International Journal of Interdisciplinary Telecommunications and Networking (IJITN)},
   volume={11},
@@ -87,7 +129,7 @@
 }
 
 @inproceedings{kfoury2020offloading,
-  title={Offloading media traffic to programmable data plane switches},
+  title={Offloading Media Traffic to Programmable Data Plane Switches},
   author={Kfoury, Elie F and Crichigno, Jorge and Bou-Harb, Elias},
   booktitle={ICC 2020-2020 IEEE International Conference on Communications (ICC)},
   pages={1--7},
@@ -113,7 +155,7 @@
 }
 
 @inproceedings{crichigno2019flow,
-  title={A flow-based entropy characterization of a NATed network and its application on intrusion detection},
+  title={A Flow-based Entropy Characterization of a NATed Network and its Application on Intrusion Detection},
   author={Crichigno, Jorge and Kfoury, E and Bou-Harb, Elias and Ghani, Nasir and Prieto, Yasmany and Vega, C and Pezoa, J and Huang, C and Torres, David},
   booktitle={ICC 2019-2019 IEEE International Conference on Communications (ICC)},
   pages={1--7},
@@ -126,7 +168,7 @@
 }
 
 @inproceedings{khoury2018decentralized,
-  title={Decentralized voting platform based on ethereum blockchain},
+  title={Decentralized Voting Platform based on Ethereum Blockchain},
   author={Khoury, David and Kfoury, Elie F and Kassem, Ali and Harb, Hamza},
   booktitle={2018 IEEE International Multidisciplinary Conference on Engineering Technology (IMCET)},
   pages={1--6},
@@ -153,7 +195,7 @@
 }
 
 @incollection{nasr2019pervasive,
-  title={A pervasive iot scheme to vehicle overspeed detection and reporting using mqtt protocol},
+  title={A Pervasive IoT Scheme to Vehicle Overspeed Detection and Reporting using MQTT Protocol},
   author={Nasr, Elie and Kfoury, Elie and Khoury, David},
   booktitle={ICT for a Better Life and a Better World},
   pages={19--34},
@@ -166,7 +208,7 @@
 }
 
 @inproceedings{kfoury2018secure,
-  title={Secure end-to-end volte based on ethereum blockchain},
+  title={Secure End-to-end VoLTE based on Ethereum Blockchain},
   author={Kfoury, Elie F and Khoury, David J},
   booktitle={2018 41st International Conference on Telecommunications and Signal Processing (TSP)},
   pages={1--5},
@@ -179,7 +221,7 @@
 }
 
 @inproceedings{gomez2020performance,
-  title={A performance evaluation of TCP BBRv2 alpha},
+  title={A Performance Evaluation of TCP BBRv2 Alpha},
   author={Gomez, Jose and Kfoury, Elie and Crichigno, Jorge and Bou-Harb, Elias and Srivastava, Gautam},
   booktitle={2020 43rd International Conference on Telecommunications and Signal Processing (TSP)},
   pages={309--312},
@@ -192,7 +234,7 @@
 }
 
 @inproceedings{friday2020towards,
-  title={Towards a unified in-network DDoS detection and mitigation strategy},
+  title={Towards a Unified In-network DDoS Detection and Mitigation Strategy},
   author={Friday, Kurt and Kfoury, Elie and Bou-Harb, Elias and Crichigno, Jorge},
   booktitle={2020 6th IEEE Conference on Network Softwarization (NetSoft)},
   pages={218--226},
@@ -205,7 +247,7 @@
 }
 
 @article{kfoury2019decentralized,
-  title={Decentralized distribution of PCP mappings over blockchain for end-to-end secure direct communications},
+  title={Decentralized Distribution of PCP Mappings over Blockchain for End-to-end Secure Direct Communications},
   author={Kfoury, Elie F and Gomez, Jose and Crichigno, Jorge and Bou-Harb, Elias and Khoury, David},
   journal={IEEE Access},
   volume={7},
@@ -215,7 +257,8 @@
   html={https://ieeexplore.ieee.org/document/8792050},
   pdf={Decentralized Distribution of PCP Mappings over Blockchain for End-to-End Secure Direct Communications.pdf},
   preview={pcp.png},
-  abstract={Network Address Translation (NAT) is a method that enables devices with private IP addresses to connect to the Internet by sharing a public IP address. Traversing the NAT device remains a challenge for a wide range of applications such as Voice over IP (VoIP) and Internet of Things (IoT). The Port Control Protocol (PCP) is a relatively new protocol standardized by the Internet Engineering Task Force (IETF) to solve the NAT traversal issues. It allows a NATed device to request and manage a mapping between its private IP address and transport-layer port to a public IP address and port. As PCP requires an application-dependent method for distributing the mappings to remote hosts, several attacks can target the distributing server and render the communication channel vulnerable. In this paper, we propose and implement a decentralized Blockchain-based approach for distributing PCP-mappings, enabling secure end-to-end (e2e) direct communications without any trusted third party server. NATed devices register their PCP mappings and public keys into the Blockchain, and other peers can then learn about these mappings to establish end-to-end secure direct communications. The implementation verifies that the system is feasible in terms of transactions fees, can simplify and secure end-to-end direct communications, and can interwork with conventional security methods.}
+  abstract={Network Address Translation (NAT) is a method that enables devices with private IP addresses to connect to the Internet by sharing a public IP address. Traversing the NAT device remains a challenge for a wide range of applications such as Voice over IP (VoIP) and Internet of Things (IoT). The Port Control Protocol (PCP) is a relatively new protocol standardized by the Internet Engineering Task Force (IETF) to solve the NAT traversal issues. It allows a NATed device to request and manage a mapping between its private IP address and transport-layer port to a public IP address and port. As PCP requires an application-dependent method for distributing the mappings to remote hosts, several attacks can target the distributing server and render the communication channel vulnerable. In this paper, we propose and implement a decentralized Blockchain-based approach for distributing PCP-mappings, enabling secure end-to-end (e2e) direct communications without any trusted third party server. NATed devices register their PCP mappings and public keys into the Blockchain, and other peers can then learn about these mappings to establish end-to-end secure direct communications. The implementation verifies that the system is feasible in terms of transactions fees, can simplify and secure end-to-end direct communications, and can interwork with conventional security methods.},
+  selected={true}
 }
 
 @inproceedings{kfoury2018distributed,
@@ -232,7 +275,7 @@
 }
 
 @inproceedings{khoury2017generic,
-  title={Generic hybrid methods for secure connections based on the integration of GBA and TLS/CA},
+  title={Generic Hybrid Methods for Secure Connections based on the Integration of GBA and TLS/CA},
   author={Khoury, David and Kfoury, Elie},
   booktitle={2017 Sensors Networks Smart and Emerging Technologies (SENSET)},
   pages={1--4},
@@ -245,7 +288,7 @@
 }
 
 @inproceedings{nasr2016iot,
-  title={An IoT approach to vehicle accident detection, reporting, and navigation},
+  title={An IoT Approach to Vehicle Accident Detection, Reporting, and Navigation},
   author={Nasr, Elie and Kfoury, Elie and Khoury, David},
   booktitle={2016 IEEE International Multidisciplinary Conference on Engineering Technology (IMCET)},
   pages={231--236},
@@ -257,19 +300,6 @@
   abstract={One particular concern that Public Safety Organizations (PSO) must account for whilst engaging in many activities is decreasing the effect of vehicle accidents, aiding as many injured people as possible and providing 24/7 on the spot rescue. The Red Cross humanitarian organization is one of the most known PSOs to be present on-site whenever an accident or a disaster takes place. However, some of the rescue teams face difficulty in reaching the injured people to due late alerts and insufficient information of the specific accident location. The advent of the mobile phone and Internet of Things (IoT) industries reshaped the way people communicate and brought a paradigm shift to public and private services [1]. This ever-evolving technology marked the beginning of new era affecting the lives of people and various businesses. This paper conveys a smart and reliable IoT system solution which instantly notifies the PSO headquarter whenever an accident takes place and pinpoints its geographic coordinates on the map. When an accident takes place, a shock sensor detects it. Then, an algorithm is applied to process the sensor signal and send the geographic location along with some ancillary information to the PSO headquarter, indicating accident occurrence. This is a promising system expected to aid in the tedious rescuing process by reporting in a matter of seconds the location of an accident, the passengers injured, blood types, thus lowering death's rates. The geographical data collected from this system could be relied upon as admissible evidence or indicator of the road state and conditions.}
 }
 
-@article{kfoury2020emulation,
-  title={An emulation-based evaluation of TCP BBRv2 alpha for wired broadband},
-  author={Kfoury, Elie F and Gomez, Jose and Crichigno, Jorge and Bou-Harb, Elias},
-  journal={Computer Communications},
-  volume={161},
-  pages={212--224},
-  year={2020},
-  publisher={Elsevier},
-  html={https://www.sciencedirect.com/science/article/pii/S014036642030092X},
-  pdf={BBRv2_Final_ComCom.pdf},
-  preview={bbr2-elie.png},
-  abstract={Google published the first release of the Bottleneck Bandwidth and Round-trip Time (BBR) congestion control algorithm in 2016. Since then, BBR has gained a widespread attention due to its ability to operate efficiently in the presence of packet loss and in scenarios where routers are equipped with small buffers. These characteristics were not attainable with traditional loss-based congestion control algorithms such as CUBIC and Reno. BBRv2 is a recent congestion control algorithm proposed as an improvement to its predecessor, BBRv1. Preliminary work suggests that BBRv2 maintains the high throughput and the bounded queueing delay properties of BBRv1. However, the literature has been missing an evaluation of BBRv2 under different network conditions. This paper presents an experimental evaluation of BBRv2 Alpha (v2alpha-2019-07-28) on Mininet, considering alternative active queue management (AQM) algorithms, routers with different buffer sizes, variable packet loss rates and round-trip times (RTTs), and small and large numbers of TCP flows. Emulation results show that BBRv2 tolerates much higher random packet loss rates than loss-based algorithms but slightly lower than BBRv1. The results also confirm that BBRv2 has better coexistence with loss-based algorithms and lower retransmission rates than BBRv1, and that it produces low queuing delay even with large buffers. When a Tail Drop policy is used with large buffers, an unfair bandwidth allocation is observed among BBRv2 and CUBIC flows. Such unfairness can be reduced by using advanced AQM schemes such as FQ-CoDel and CAKE. Regarding fairness among BBRv2 flows, results show that using small buffers produces better fairness, without compromising high throughput and link utilization. This observation applies to BBRv1 flows as well, which suggests that rate-based model-based algorithms work better with small buffers. BBRv2 also enhances the coexistence of flows with different RTTs, mitigating the RTT unfairness problem noted in BBRv1. Lastly, the paper presents the advantages of using TCP pacing with a loss-based algorithm, when the rate is manually configured a priori. Future algorithms could set the pacing rate using explicit feedback generated by modern programmable switches.}
-}
 
 @inproceedings{crichigno2021distributed,
   title={A Distributed Academic Cloud and Virtual Laboratories for Information Technology Education and Research},
@@ -285,7 +315,7 @@
 }
 
 @inproceedings{crichigno2020training,
-  title={Training and teaching students and it professionals on high-throughput networking and cybersecurity using a private cloud},
+  title={Training and Teaching Students and IT Professionals on High-throughput Networking and Cybersecurity using a Private Cloud},
   author={Crichigno, Jorge and Bou-Harb, Elias and Kfoury, Elie and Gomez, Jose and Mangino, Antonio},
   booktitle={2020 Annual Conference of the American Society for Engineering Education},
   year={2020},
@@ -296,7 +326,7 @@
 }
 
 @inproceedings{farran2021blockchain,
-  title={A blockchain-based V2X communication system},
+  title={A Blockchain-based V2X Communication System},
   author={Farran, Hassan and Khoury, David and Kfoury, Elie and Bokor, L{\'a}szl{\'o}},
   booktitle={2021 44th International Conference on Telecommunications and Signal Processing (TSP)},
   pages={208--213},
@@ -308,19 +338,6 @@
   abstract={The security proposed for Vehicle-to-Everything (V2X) systems in the European Union is specified in the ETSI Cooperative Intelligent Transport System (C-ITS) standards, and related documents are based on the trusted PKI/CAs. The C-ITS trust model platform comprises an EU Root CA and additional Root CAs run in Europe by member state authorities or private organizations offering certificates to individual users. A new method is described in this paper where the security in V2X is based on the Distributed Public Keystore (DPK) platform developed for Ethereum blockchain. The V2X security is considered as one application of the DPK platform. The DPK stores and distributes the vehicles, RSUs, or other C-ITS role-players’ public keys. It establishes a generic key exchange/ agreement scheme that provides mutual key, entity authentication, and distributing a session key between two peers. V2X communication based on this scheme can establish an end-to-end (e2e) secure session and enables vehicle authentication without the need for a vehicle certificate signed by a trusted Certificate Authority.}
 }
 
-@article{kfoury2021exhaustive,
-  title={An exhaustive survey on p4 programmable data plane switches: Taxonomy, applications, challenges, and future trends},
-  author={Kfoury, Elie F and Crichigno, Jorge and Bou-Harb, Elias},
-  journal={IEEE Access},
-  volume={9},
-  pages={87094--87155},
-  year={2021},
-  publisher={IEEE},
-  html={https://ieeexplore.ieee.org/document/9447791/},
-  pdf={An Exhaustive Survey on P4 Programmable Data Plane Switches Taxonomy, Applications, Challenges, and Future Trends.pdf},
-  preview={p4_survey.png},
-  abstract={Traditionally, the data plane has been designed with fixed functions to forward packets using a small set of protocols. This closed-design paradigm has limited the capability of the switches to proprietary implementations which are hard-coded by vendors, inducing a lengthy, costly, and inflexible process. Recently, data plane programmability has attracted significant attention from both the research community and the industry, permitting operators and programmers in general to run customized packet processing functions. This open-design paradigm is paving the way for an unprecedented wave of innovation and experimentation by reducing the time of designing, testing, and adopting new protocols; enabling a customized, top-down approach to develop network applications; providing granular visibility of packet events defined by the programmer; reducing complexity and enhancing resource utilization of the programmable switches; and drastically improving the performance of applications that are offloaded to the data plane. Despite the impressive advantages of programmable data plane switches and their importance in modern networks, the literature has been missing a comprehensive survey. To this end, this paper provides a background encompassing an overview of the evolution of networks from legacy to programmable, describing the essentials of programmable switches, and summarizing their advantages over Software-defined Networking (SDN) and legacy devices. The paper then presents a unique, comprehensive taxonomy of applications developed with P4 language; surveying, classifying, and analyzing more than 200 articles; discussing challenges and considerations; and presenting future perspectives and open research issues.}
-}
 
 @inproceedings{kfoury2021dynamic,
   title={Dynamic Router's Buffer Sizing using Passive Measurements and P4 Programmable Switches},
@@ -332,11 +349,12 @@
   html={https://ieeexplore.ieee.org/document/9685160/},
   pdf={Dynamic Router's Buffer Sizing using Passive Measurements and P4 Programmable Switches.pdf},
   preview={buffer_globecome.png},
-  abstract={The router's buffer size imposes significant implications on the performance of the network. Network operators nowadays configure the router's buffer size manually and stati-cally. They typically configure large buffers that fill up and never go empty, increasing the Round-trip Time (RTT) of packets significantly and decreasing the application performance. Few works in the literature dynamically adjust the buffer size, but are implemented only in simulators, and therefore cannot be tested and deployed in production networks with real traffic. Previous work suggested setting the buffer size to the Bandwidth-delay Product (BDP) divided by the square root of the number of long flows. Such formula is adequate when the RTT and the number of long flows are known in advance. This paper proposes a system that leverages programmable switches as passive instruments to measure the RTT and count the number of flows traversing a legacy router. Based on the measurements, the programmable switch dynamically adjusts the buffer size of the legacy router in order to mitigate the unnecessary large queuing delays. Results show that when the buffer is adjusted dynamically, the RTT, the loss rate, and the fairness among long flows are enhanced. Additionally, the Flow Completion Time (FCT) of short flows sharing the queue is greatly improved. The system can be adopted in campus, enterprise, and service provider networks, without the need to replace legacy routers.}
+  abstract={The router's buffer size imposes significant implications on the performance of the network. Network operators nowadays configure the router's buffer size manually and stati-cally. They typically configure large buffers that fill up and never go empty, increasing the Round-trip Time (RTT) of packets significantly and decreasing the application performance. Few works in the literature dynamically adjust the buffer size, but are implemented only in simulators, and therefore cannot be tested and deployed in production networks with real traffic. Previous work suggested setting the buffer size to the Bandwidth-delay Product (BDP) divided by the square root of the number of long flows. Such formula is adequate when the RTT and the number of long flows are known in advance. This paper proposes a system that leverages programmable switches as passive instruments to measure the RTT and count the number of flows traversing a legacy router. Based on the measurements, the programmable switch dynamically adjusts the buffer size of the legacy router in order to mitigate the unnecessary large queuing delays. Results show that when the buffer is adjusted dynamically, the RTT, the loss rate, and the fairness among long flows are enhanced. Additionally, the Flow Completion Time (FCT) of short flows sharing the queue is greatly improved. The system can be adopted in campus, enterprise, and service provider networks, without the need to replace legacy routers.},
+  selected={true}
 }
 
 @article{alsabeh2022survey,
-  title={A survey on security applications of p4 programmable switches and a stride-based vulnerability assessment},
+  title={A Survey on Security Applications of P4 Programmable Switches and a STRIDE-based Vulnerability Assessment},
   author={AlSabeh, Ali and Khoury, Joseph and Kfoury, Elie and Crichigno, Jorge and Bou-Harb, Elias},
   journal={Computer Networks},
   volume={207},
@@ -350,7 +368,7 @@
 }
 
 @misc{khoury2022method,
-  title={Method and system for initiating a mobile voice call},
+  title={Method and System for Initiating a Mobile Voice Call},
   author={Khoury, David Jean and Ged, Joseph Selim and Kfoury, Elie Fares},
   year={2022},
   month=mar # "~10",
@@ -390,7 +408,7 @@
 }
 
 @article{gomez2022survey,
-  title={A survey on TCP enhancements using P4-programmable devices},
+  title={A Survey on TCP Enhancements using P4-programmable Devices},
   author={Gomez, Jose and Kfoury, Elie F and Crichigno, Jorge and Srivastava, Gautam},
   journal={Computer Networks},
   pages={109030},
@@ -402,15 +420,7 @@
   abstract={The increasing performance requirements of today’s Internet applications demand a reliable mechanism to transfer data. Many applications rely on the Transmission Control Protocol (TCP) as the transport protocol, due to its ability to adapt to properties of the network and to be robust in the face of many kinds of failures. However, improving the performance of applications that rely on TCP has been limited by the closed nature of legacy switches, which do not provide accurate visibility of network events. With the emergence of P4-programmable devices, developers can rapidly implement and test customized solutions that use fine-grained telemetry, provide sub round-trip time feedback to end devices to enhance congestion control, precisely isolate traffic to offer better Quality of Service (QoS), quickly detect congestion and re-route traffic via alternate paths, and optimize server resources by offloading protocols. This paper first surveys recent works on P4-programmable devices, focusing on schemes aimed at enhancing TCP performance. It provides a taxonomy classifying the aspects that impact TCP’s behavior, such as congestion control, Active Queue Management (AQM) algorithms, TCP offloading, and network measurement schemes. Then, it compares the P4-based solutions, and contrasts those solutions with legacy implementations. Lastly, the paper presents challenges and future trends.}
 }
 
-@misc{crichigno2022high,
-  title={High-Speed Networks, A Tutorial},
-  author={Crichigno, Jorge and Kfoury, Elie and Bou-Harb, Elias and Ghani, Nasir},
-  year={2022},
-  publisher={Practical Networking, Springer International Publishing},
-  html={https://link.springer.com/book/10.1007/978-3-030-88841-1/},
-  preview={hsn.png},
-  abstract={Welcome to High-Speed Networks: A Tutorial. This book is the result of a journey of the authors who have been designing and deploying high-speed networks for several years, in particular Science Demilitarized Zones (Science DMZs). The Science DMZ is a high-speed network designed to facilitate the transfer of big science data. As the popularity of high-speed networks and Science DMZs surged, the need for professionals with the skills to operate such infrastructures has increased. How- ever, practitioners have been mostly trained to operate general-purpose networks, which have different characteristics from those of Science DMZs and other high- performance networks. At the time when the authors started designing and operating Science DMZs, the available material was limited to workshops organized by ESnet, the Scientific Networking Division at Lawrence Berkeley National Laboratory in the United States (U.S.). This book tries to address the above gap. It provides practical knowledge and skills on Science DMZs and high-speed networks in general, which are reinforced with virtual laboratory experiments}
-}
+
 
 @inproceedings{friday2022inc,
   title={INC: In-Network Classification of Botnet Propagation at Line Rate},
