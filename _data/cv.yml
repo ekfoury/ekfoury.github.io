@@ -40,9 +40,13 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items: 
+        - Breakthrough Graduate Scholar Award
+        - The Breakthrough "family" of awards are presented each year by the Office of the Vice President for Research to recognize outstanding researchers and scholars at the University of South Carolina. The Breakthrough Graduate Scholars award honors our outstanding graduate-student researchers. Link: https://www.sc.edu/about/offices_and_divisions/research/news_and_pubs/news/2023/2023_Breakthrough_Awards_Announcement.php.
     - year: 2018
       items: 
-        - Best paper award 
+        - Best Paper Award 
         - Secure End-to-End VoIP System based on Ethereum Blockchain, International Conference on Communication and Network Protocol (ICCNP 2018), Paris, France, 2018. Link - https://tinyurl.com/bde2ph3d.
     - year: 2017
       items: 
