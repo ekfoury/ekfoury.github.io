@@ -451,3 +451,28 @@
   abstract={Security in the communication systems rely mainly on a trusted Public Key Infrastructure (PKI) and Certificate Authorities (CAs). Besides the lack of automation, the complexity and the cost of assigning a signed certificate to a device, several allegations against CAs have been discovered, which has created trust issues in adopting this standard model for secure systems. The automation of the servers certificate assignment was achieved by the Automated Certificate Management Environment (ACME) method, but without confirming the trust of assigned certificate. This paper presents a complete tested and implemented solution to solve the trust of the Certificates provided to the servers by using the blockchain platform for certificate validation. The Blockchain network provides an immutable data store, holding the public keys of all domain names, while resolving the trust concerns by applying an automated Blockchain-based Domain Control Validation (B-DCV) for the server and client server verification. The evaluation was performed on the Ethereum Rinkeby testnet adopting the Proof of Authority (PoA) consensus algorithm which is an improved version of Proof of Stake (PoS) applied on Ethereum 2.0 providing superior performance compared to Ethereum 1.0.}
 
 }
+
+@article{p4tune,
+  title={{P4Tune: Enabling Programmability in Non-Programmable Networks}},
+  author={Kfoury, E. and Crichigno, J. and Bou-Harb, E.},
+  journal={IEEE Communications Magazine},
+  year={2023},
+  abstract={Data plane programmability has attracted significant attention, permitting network operators to run customized packet processing functions. Unfortunately, networks today are still largely dominated by proprietary fixed-function devices. It is challenging for operators to completely migrate to programmable data planes (PDPs) due to the economical costs of replacing equipment and limited expertise in maintaining and operating programmable networks. This paper introduces P4Tune, a cost-efficient architecture that uses passive PDPs coupled with optical taps. P4Tune runs customized packet processing functions operating at line rate and collects network information with nanosecond resolution. This visibility enables intelligent algorithms residing in the control plane to construct configuration rules and apply them on the legacy devices, thus creating a closed control loop. P4Tune brings the benefits of processing traffic at line rate to legacy networks. Additionally, by using PDPs passively, the architecture can be safely deployed without disrupting current network operations, fostering incremental use of PDPs (i.e., no need to deploy complex code at once). The paper demonstrates three applications of the proposed architecture related to Quality of Service (QoS) and cybersecurity},
+  pdf={Enabling_Programmability_in_a_Non_Programmable_Network.pdf},
+  preview={p4tune.png},
+  publisher={IEEE}
+}
+
+
+@inproceedings{p4cci,
+  title={{P4CCI: P4-based Online TCP Congestion Control Algorithm Identification for Traffic Separation}},
+  author={Kfoury, E.  and Crichigno, J. and Bou-Harb},
+  booktitle={IEEE International Conference on Communications (ICC)},
+  year={2023},
+  abstract={Congestion Control Algorithms (CCAs) regulate the sending rates of hosts to avoid congestion in the network. Studies have shown that when flows belonging to different CCAs co-exist on the same link, their shares on that link are significantly different. If the CCAs of active flows can be determined on live traffic, then flows belonging to the same CCA can be allocated into a dedicated queue. Unfortunately, identifying the CCA at line rate is not straightforward since the CCA is not advertised in the header fields of a packet. Moreover, with Gigabits per second (Gbps) traffic crossing a network, analyzing each packet to infer the CCA is not possible, especially with general-purpose CPUs. This paper proposes P4CCI, a system that detects the CCA of a flow at line rate by leveraging Programmable Data Planes (PDP). The PDP computes and extracts the flow’s bytes-in-flight and sends them to a Deep Learning model for classification. Once classified, the flows are allocated into dedicated queues based on their CCA type. The system was implemented and tested on real hardware that uses Intel’s Tofino ASIC. The experiments were executed on traffic provided by CAIDA. Results show that P4CCI can detect the CCAs with high accuracy. Furthermore, the performance of the network is greatly improved when the flows are separated by their CCAs.},
+  pdf={P4CCI-final.pdf},
+  preview={p4cci.PNG},
+  organization={IEEE}
+}
+
+
